@@ -2,12 +2,10 @@
 
 /*css document*/
 
-*{
-	box-sizing:border-box:
-}
 
 html {
   scroll-behavior: smooth;
+  
 }
 
 #demo{
@@ -19,6 +17,7 @@ body{
 	background-color:#f6f5f5;
 	margin:0px;
 	padding:0px;
+	box-sizing:border-box:
 }
 ul{
 	list-style:none;
