@@ -2,6 +2,10 @@
 
 /*css document*/
 
+*{
+	box-sizing:border-box:
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -392,6 +396,51 @@ html {
 	font-size:20px;
 }
 	
+
+
+.educational-div ul li {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.educational-div ul li span {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.educational-div {
+  background-color: rgb(231, 226, 226);
+  width: 100%;
+}
+.educational-div::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+.educational-div .main {
+  width: 33.33%;
+  float: left;
+  padding: 10px;
+}
+
+.educational-div .main h2 {
+  margin-left: 22px;
+}
+.educational-div .heading {
+  text-align: center;
+  margin: 20px 50px;
+}
+.educational-div .heading h1 {
+  border: 1px groove honeydew;
+  padding: 10px 10px;
+  background-color: antiquewhite;
+}
+@media screen and (max-width: 700px) {
+  .educational-div .main {
+    width: 100%;
+  }
+}
+
 	
 	
 
