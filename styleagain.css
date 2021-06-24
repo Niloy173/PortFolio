@@ -5,6 +5,7 @@
 .educational-div ul li {
   font-weight: bold;
   font-size: 20px;
+  padding:10px 0px;
 }
 
 .educational-div ul li span {
@@ -22,6 +23,7 @@
   content: "";
 }
 .educational-div .main {
+  height:300px
   width: 33.33%;
   float: left;
   padding: 10px;
@@ -42,5 +44,12 @@
 @media screen and (max-width: 700px) {
   .educational-div .main {
     width: 100%;
+  }
+   .educational-div ul li {
+    padding: 5px 0px;
+  }
+
+  .educational-div .main {
+    height: 200px;
   }
 }
