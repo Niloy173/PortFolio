@@ -6,6 +6,11 @@ html {
   scroll-behavior: smooth;
 }
 
+#demo{
+	
+	overflow-y:scroll;
+}
+
 body{
 	background-color:#f6f5f5;
 	margin:0px;
